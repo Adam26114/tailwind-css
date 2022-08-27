@@ -7,3 +7,20 @@ Integrate Methods
 3.Using PostCss
 
 node -v
+
+
+----------------------------------------------------------
+
+1.Using CDN Link ( Content Deliver Network )
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+h1 font size tae
+
+----------------------------------------------------------
+
+3.Using PostCss
+
+=open folder
+
+npm install -D tailwindcss postcss autoprefixer
