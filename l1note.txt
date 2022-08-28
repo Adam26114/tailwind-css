@@ -1,29 +1,32 @@
 https://tailwindcss.com
 
 Integrate Methods
-
-1.Using CDN Link ( Content Deliver Network )
-2.Using Tailwind CLI
-3.Using PostCss
-
-node -v
-
-
-----------------------------------------------------------
-
 1.Using CDN Link ( Content Deliver Network )
 
+2.Using Tailwind CLI   -----|
+							|-->need NodeJS
+3.Using PostCSS		   -----|
+
+
+
+
+Terminal = VS code
+Nodejs
+
+1.Using CDN Link ( Content Deliver Network )
+
+Copy the code from Tailwind CSS website > Get Started > Play CDN
 <script src="https://cdn.tailwindcss.com"></script>
 
-h1 font size tae
 
-----------------------------------------------------------
+3.Using PostCSS
 
-3.Using PostCss
-
-open folder "usingpostcss"
-opne terminal
-
+= Open folder "usingpostcss"
+= open terminal
+	copy the first code from Taildwind CSS website > Get Started > Using PostCSS
 npm install -D tailwindcss postcss autoprefixer
 
-27NM
+= Creat tailwind.config file by copying the second code from Taildwind CSS website > Get Started > Using PostCSS
+	npx tailwindcss init
+
+= Add PostCSS file
