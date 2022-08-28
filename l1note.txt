@@ -45,3 +45,10 @@ npm install -D tailwindcss postcss autoprefixer
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+=> Build process
+=write down "npm init -y" in terminal ( so i' ts will create package.json)
+=write down in package.json > "script" "{
+	"test": "echo \"Error: no test specified\" && exit 1"
+	npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+}
