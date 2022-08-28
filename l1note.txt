@@ -30,3 +30,18 @@ npm install -D tailwindcss postcss autoprefixer
 	npx tailwindcss init
 
 = Add PostCSS file
+
+=go tailwind.config.js
+=and write down is content:["./public/**/*.html"]
+
+.  = current folder
+** =  all folder of inside in public folder
+*  =  all html files
+
+
+=> Create Tailwnd main files
+=create new folder and naming "tailwind"
+=create new file and naming "main.css" in "tailwind" folder
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
