@@ -74,7 +74,8 @@
     "supports-preserve-symlinks-flag": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css"
   },
   "keywords": [],
   "author": "",
