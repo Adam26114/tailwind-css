@@ -21,6 +21,9 @@ h1 font size tae
 
 3.Using PostCss
 
-=open folder
+open folder "usingpostcss"
+opne terminal
 
 npm install -D tailwindcss postcss autoprefixer
+
+27NM
