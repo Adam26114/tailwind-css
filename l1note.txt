@@ -58,6 +58,13 @@ npm install -D tailwindcss postcss autoprefixer
 
 go terminal and enter "npm run build"
 
+=> Watch 
+go to package.json , write down
+
+  "scripts": {
+    "watch" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css --watch"
+  },
+
 28BD
 
 
@@ -108,10 +115,13 @@ module.exports = {
 npm init -y
 
 10.Creat Shortcut in package.json > "script"
-"build" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css"
+"build" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css",
+"watch" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css --watch"
 
 11. Terminal
 
 npm run build
+npm run watch
+
 
 -----------------------------------------------------
