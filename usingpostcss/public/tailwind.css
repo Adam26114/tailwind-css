@@ -1468,6 +1468,10 @@ video {
   outline-style: double;
 }
 
+.outline-hidden {
+  outline-style: hidden;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
