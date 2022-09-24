@@ -551,6 +551,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
