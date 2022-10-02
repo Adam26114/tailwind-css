@@ -9,13 +9,18 @@
         table{
             width:500px;
         }
+
+        .color{
+            background-color:orange;
+            color:#fff;
+        }
     </style>
 </head>
 <body>
     <h1>This is Tailwind Css</h1>
 
     <div>
-        <table class="table-auto border-2">
+        <table class="table-auto border-2 border-collapse">
             <thead>
                 <tr>
                     <th class="border">ID</th>
@@ -66,7 +71,7 @@
        
         <br/><hr/><br/>
 
-        <table class="table-fixed border-2">
+        <table class="table-fixed border-2 border-separate">
             <thead>
                 <tr>
                     <th class="border">ID</th>
@@ -122,8 +127,55 @@
 
 
 <!-- 
-table-auto          table-layout:auto;
-table-fixed         table-layout:fixed;
+table-auto              table-layout:auto;
+table-fixed             table-layout:fixed;
 -->
 
+<!-- TODO:
+border-collapse         border-collapse:collapse;
+border-separate         border-separate:separate;
+ -->
+
+ <!-- 
+border-spacing-0        border-spacing:0px 0px;
+border-spacing-x-0      
+border-spacing-y-0      
+
+border-spacing-px        border-spacing:1px 1px;
+border-spacing-x-px      
+border-spacing-y-px      
+
+border-spacing-0.5        
+border-spacing-x-0.5      
+border-spacing-y-0.5      
+
+border-spacing-1        
+border-spacing-x-1      
+border-spacing-y-1      
+
+border-spacing-1.5        
+border-spacing-x-1.5      
+border-spacing-y-1.5      
+
+border-spacing-2        
+border-spacing-x-2      
+border-spacing-y-2      
+
+border-spacing-2.5        
+border-spacing-x-2.5      
+border-spacing-y-2.5      
+
+border-spacing-3        
+border-spacing-x-3      
+border-spacing-y-3      
+
+border-spacing-3.5    
+border-spacing-x-3.5      
+border-spacing-y-3.5      
+
+border-spacing-4        
+border-spacing-x-4      
+border-spacing-y-4   
+
+  -->
 <!--  1TB -->
