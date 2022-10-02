@@ -751,6 +751,118 @@ video {
   border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
+.border-spacing-6 {
+  --tw-border-spacing-x: 1.5rem;
+  --tw-border-spacing-y: 1.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-x-6 {
+  --tw-border-spacing-x: 1.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-6 {
+  --tw-border-spacing-y: 1.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-7 {
+  --tw-border-spacing-x: 1.75rem;
+  --tw-border-spacing-y: 1.75rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-x-7 {
+  --tw-border-spacing-x: 1.75rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-7 {
+  --tw-border-spacing-y: 1.75rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-8 {
+  --tw-border-spacing-x: 2rem;
+  --tw-border-spacing-y: 2rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-x-8 {
+  --tw-border-spacing-x: 2rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-8 {
+  --tw-border-spacing-y: 2rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-9 {
+  --tw-border-spacing-x: 2.25rem;
+  --tw-border-spacing-y: 2.25rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-x-9 {
+  --tw-border-spacing-x: 2.25rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-9 {
+  --tw-border-spacing-y: 2.25rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-10 {
+  --tw-border-spacing-x: 2.5rem;
+  --tw-border-spacing-y: 2.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-x-10 {
+  --tw-border-spacing-x: 2.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-10 {
+  --tw-border-spacing-y: 2.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-11 {
+  --tw-border-spacing-x: 2.75rem;
+  --tw-border-spacing-y: 2.75rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-x-11 {
+  --tw-border-spacing-x: 2.75rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-11 {
+  --tw-border-spacing-y: 2.75rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-12 {
+  --tw-border-spacing-x: 3rem;
+  --tw-border-spacing-y: 3rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-x-12 {
+  --tw-border-spacing-x: 3rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-12 {
+  --tw-border-spacing-y: 3rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
