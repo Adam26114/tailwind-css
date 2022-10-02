@@ -555,6 +555,18 @@ video {
   margin-left: 1.25rem;
 }
 
+.table {
+  display: table;
+}
+
+.table-auto {
+  table-layout: auto;
+}
+
+.table-fixed {
+  table-layout: fixed;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
