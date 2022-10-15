@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Transtion Duration</title>
+    <title>Transtion Duration & Delay & Timing Function</title>
     <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
     <link href="./tailwind.css" rel="stylesheet" type="text/css"/>
 
     <style type="text/css">
 
+        .box{
+            width:1200px;
+            height:200px;
+            background-color:steelblue;
+        }
+
+        img{
+            width:200px;
+            height:100%;
+        }
+
+        img:hover{
+            transform:translate(1000px);
+        }
 
     </style>
 </head>
@@ -14,9 +28,34 @@
 
     <h1>This is Tailwind Css</h1>
 
-    <img src="./img/cat.jpg" class="" alt="cat"/>
+    <h1>ease-linear</h1>
+    <div class="box">
+        <img src="./img/cat.jpg" class="transition duration-1000 ease-linear delay-1000" alt="cat"/>
+    </div>
 
+    <hr/>
+
+    <h1>ease-in</h1>
+    <div class="box">
+        <img src="./img/cat.jpg" class="transition duration-1000 ease-out" alt="cat"/>
+    </div>
+
+    <hr/>
     
+    <h1>ease-out</h1>
+    <div class="box">
+        <img src="./img/cat.jpg" class="transition duration-1000 ease-out" alt="cat"/>
+    </div>
+
+    <hr/>
+    
+    <h1>ease-in-out</h1>
+    <div class="box">
+        <img src="./img/cat.jpg" class="transition duration-1000 ease-in-out" alt="cat"/>
+    </div>
+
+    <hr/>
+
 </body>
 </html>
 
@@ -31,14 +70,10 @@
     duration-500        transition-duration:500ms;
     duration-700        transition-duration:700ms;
     duration-1000       transition-duration:1000ms;
-
-    delay-75            transition-delay:75ms;
-    delay-100           transition-delay:100ms;
-    delay-200           transition-delay:200ms;
-    delay-300           transition-delay:300ms;
-    delay-500           transition-delay:500ms;
-    delay-700           transition-delay:700ms;
-    delay-1000          transition-delay:1000ms;
-    
- -->
+        
+    ease-linear         transition-timing-function:linear;
+    ease-in             transition-timing-function:ease-in;
+    ease-out            transition-timing-function:ease-out;
+    ease-in-out         transition-timing-function:ease-in-out;
+-->
 
