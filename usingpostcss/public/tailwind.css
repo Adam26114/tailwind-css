@@ -4403,6 +4403,18 @@ video {
   color: rgb(136 19 55 / var(--tw-text-opacity));
 }
 
+.text-inherit {
+  color: inherit;
+}
+
+.text-current {
+  color: currentColor;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -4417,6 +4429,42 @@ video {
 
 .no-underline {
   text-decoration-line: none;
+}
+
+.decoration-black {
+  text-decoration-color: #000;
+}
+
+.decoration-white {
+  text-decoration-color: #fff;
+}
+
+.decoration-inherit {
+  text-decoration-color: inherit;
+}
+
+.decoration-current {
+  text-decoration-color: currentColor;
+}
+
+.decoration-transparent {
+  text-decoration-color: transparent;
+}
+
+.decoration-red-50 {
+  text-decoration-color: #fef2f2;
+}
+
+.decoration-slate-50 {
+  text-decoration-color: #f8fafc;
+}
+
+.decoration-green-50 {
+  text-decoration-color: #f0fdf4;
+}
+
+.decoration-amber-50 {
+  text-decoration-color: #fffbeb;
 }
 
 .decoration-solid {
