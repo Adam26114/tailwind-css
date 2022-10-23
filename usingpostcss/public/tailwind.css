@@ -4467,6 +4467,34 @@ video {
   text-decoration-color: #fffbeb;
 }
 
+.decoration-red-300 {
+  text-decoration-color: #fca5a5;
+}
+
+.decoration-red-500 {
+  text-decoration-color: #ef4444;
+}
+
+.decoration-amber-500 {
+  text-decoration-color: #f59e0b;
+}
+
+.decoration-indigo-500 {
+  text-decoration-color: #6366f1;
+}
+
+.decoration-rose-500 {
+  text-decoration-color: #f43f5e;
+}
+
+.decoration-indigo-900 {
+  text-decoration-color: #312e81;
+}
+
+.decoration-rose-700 {
+  text-decoration-color: #be123c;
+}
+
 .decoration-solid {
   text-decoration-style: solid;
 }
