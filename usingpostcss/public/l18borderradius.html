@@ -5,128 +5,217 @@
         <link href="./tailwind.css" rel="stylesheet" type="text/css"/>
         <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
         <style type="text/css">
+
+            body{
+                margin:10px;
+            }
+
             .box{
-                width:150px;
-                height:100px;
+                /* width:150px;
+                height:100px; */
                 background-color:steelblue;
                 color:#fff;
-                margin:15px;
+                padding:25px;
+                margin:5px;
 
                 font-size:12px;
                 font-weight:bold;
                 
 
-                text-align:center;
-                line-height:100px;
+                /* text-align:center;
+                line-height:100px; */
+            }
+
+            .col-md-9{
+                width:11%;
             }
         </style>
     </head>
     <body>
 
+
+
         <h1>This is Tailwind CSS</h1>
 
-        <div>
+        <div class="flex">
 
-            <h1>border</h1>
+            <div class="col-md-9">
+    
+                <b>border</b>
+    
+                <button class="box rounded-none">rounded-none</button><br/>
+                <button class="box rounded-sm">rounded-sm</button><br/>
+                <button class="box rounded">rounded</button><br/>
+                <button class="box rounded-md">rounded-md</button><br/>
+                <button class="box rounded-lg">rounded-lg</button><br/>
+                <button class="box rounded-xl">rounded-xl</button><br/>
+                <button class="box rounded-2xl">rounded-2xl</button><br/>
+                <button class="box rounded-3xl">rounded-3xl</button><br/>
+                <button class="box rounded-full">rounded-full</button><br/>
+                
+            </div>
+    
+            <div class="col-md-9">
+    
+                <b>border-top</b>
+    
+                <button class="box rounded-t-none">rounded-t-none</button><br/>
+                <button class="box rounded-t-sm">rounded-t-sm</button><br/>
+                <button class="box rounded-t">rounded-t</button><br/>
+                <button class="box rounded-t-md">rounded-t-md</button><br/>
+                <button class="box rounded-t-lg">rounded-t-lg</button><br/>
+                <button class="box rounded-t-xl">rounded-t-xl</button><br/>
+                <button class="box rounded-t-2xl">rounded-t-2xl</button><br/>
+                <button class="box rounded-t-3xl">rounded-t-3xl</button><br/>
+                <button class="box rounded-t-full">rounded-t-full</button><br/>
+                
+            </div>
 
-            <div class="box rounded-none">
-                <p>This is rounded-none</p>
+            <div class="col-md-9">
+    
+                <b>border-bottom</b>
+    
+                <button class="box rounded-b-none">rounded-b-none</button><br/>
+                <button class="box rounded-b-sm">rounded-b-sm</button><br/>
+                <button class="box rounded-b">rounded-b</button><br/>
+                <button class="box rounded-b-md">rounded-b-md</button><br/>
+                <button class="box rounded-b-lg">rounded-b-lg</button><br/>
+                <button class="box rounded-b-xl">rounded-b-xl</button><br/>
+                <button class="box rounded-b-2xl">rounded-b-2xl</button><br/>
+                <button class="box rounded-b-3xl">rounded-b-3xl</button><br/>
+                <button class="box rounded-b-full">rounded-b-full</button><br/>
+                
             </div>
-            <div class="box rounded-sm">
-                <p>This is rounded-sm</p>
+
+            <div class="col-md-9">
+    
+                <b>border-left</b>
+    
+                <button class="box rounded-l-none">rounded-l-none</button><br/>
+                <button class="box rounded-l-sm">rounded-l-sm</button><br/>
+                <button class="box rounded-l">rounded-l</button><br/>
+                <button class="box rounded-l-md">rounded-l-md</button><br/>
+                <button class="box rounded-l-lg">rounded-l-lg</button><br/>
+                <button class="box rounded-l-xl">rounded-l-xl</button><br/>
+                <button class="box rounded-l-2xl">rounded-l-2xl</button><br/>
+                <button class="box rounded-l-3xl">rounded-l-3xl</button><br/>
+                <button class="box rounded-l-full">rounded-l-full</button><br/>
+                
             </div>
-            <div class="box rounded">
-                <p>This is rounded</p>
+            
+            <div class="col-md-9">
+    
+                <b>border-right</b>
+    
+                <button class="box rounded-r-none">rounded-r-none</button><br/>
+                <button class="box rounded-r-sm">rounded-r-sm</button><br/>
+                <button class="box rounded-r">rounded-r</button><br/>
+                <button class="box rounded-r-md">rounded-r-md</button><br/>
+                <button class="box rounded-r-lg">rounded-r-lg</button><br/>
+                <button class="box rounded-r-xl">rounded-r-xl</button><br/>
+                <button class="box rounded-r-2xl">rounded-r-2xl</button><br/>
+                <button class="box rounded-r-3xl">rounded-r-3xl</button><br/>
+                <button class="box rounded-r-full">rounded-r-full</button><br/>
+                
             </div>
-            <div class="box rounded-md">
-                <p>This is rounded-md</p>
+
+            <div class="col-md-9">
+    
+                <b>border-top-left</b>
+    
+                <button class="box rounded-tl-none">rounded-tl-none</button><br/>
+                <button class="box rounded-tl-sm">rounded-tl-sm</button><br/>
+                <button class="box rounded-tl">rounded-tl</button><br/>
+                <button class="box rounded-tl-md">rounded-tl-md</button><br/>
+                <button class="box rounded-tl-lg">rounded-tl-lg</button><br/>
+                <button class="box rounded-tl-xl">rounded-tl-xl</button><br/>
+                <button class="box rounded-tl-2xl">rounded-tl-2xl</button><br/>
+                <button class="box rounded-tl-3xl">rounded-tl-3xl</button><br/>
+                <button class="box rounded-tl-full">rounded-tl-full</button><br/>
+                
             </div>
-            <div class="box rounded-lg">
-                <p>This is rounded-lg</p>
+
+            <div class="col-md-9">
+    
+                <b>border-top-right</b>
+    
+                <button class="box rounded-tr-none">rounded-tr-none</button><br/>
+                <button class="box rounded-tr-sm">rounded-tr-sm</button><br/>
+                <button class="box rounded-tr">rounded-tr</button><br/>
+                <button class="box rounded-tr-md">rounded-tr-md</button><br/>
+                <button class="box rounded-tr-lg">rounded-tr-lg</button><br/>
+                <button class="box rounded-tr-xl">rounded-tr-xl</button><br/>
+                <button class="box rounded-tr-2xl">rounded-tr-2xl</button><br/>
+                <button class="box rounded-tr-3xl">rounded-tr-3xl</button><br/>
+                <button class="box rounded-tr-full">rounded-tr-full</button><br/>
+                
             </div>
-            <div class="box rounded-xl">
-                <p>This is rounded-xl</p>
+
+            <div class="col-md-9">
+    
+                <b>border-bottom-left</b>
+    
+                <button class="box rounded-bl-none">rounded-bl-none</button><br/>
+                <button class="box rounded-bl-sm">rounded-bl-sm</button><br/>
+                <button class="box rounded-bl">rounded-bl</button><br/>
+                <button class="box rounded-bl-md">rounded-bl-md</button><br/>
+                <button class="box rounded-bl-lg">rounded-bl-lg</button><br/>
+                <button class="box rounded-bl-xl">rounded-bl-xl</button><br/>
+                <button class="box rounded-bl-2xl">rounded-bl-2xl</button><br/>
+                <button class="box rounded-bl-3xl">rounded-bl-3xl</button><br/>
+                <button class="box rounded-bl-full">rounded-bl-full</button><br/>
+                
             </div>
-            <div class="box rounded-2xl">
-                <p>This is rounded-2xl</p>
-            </div>
-            <div class="box rounded-3xl">
-                <p>This is rounded-3xl</p>
-            </div>
-            <div class="box rounded-full">
-                <p>This is rounded-full</p>
+
+            <div class="col-md-9">
+    
+                <b>border-bottom-rigth</b>
+    
+                <button class="box rounded-br-none">rounded-br-none</button><br/>
+                <button class="box rounded-br-sm">rounded-br-sm</button><br/>
+                <button class="box rounded-br">rounded-br</button><br/>
+                <button class="box rounded-br-md">rounded-br-md</button><br/>
+                <button class="box rounded-br-lg">rounded-br-lg</button><br/>
+                <button class="box rounded-br-xl">rounded-br-xl</button><br/>
+                <button class="box rounded-br-2xl">rounded-br-2xl</button><br/>
+                <button class="box rounded-br-3xl">rounded-br-3xl</button><br/>
+                <button class="box rounded-br-full">rounded-br-full</button><br/>
+                
             </div>
             
         </div>
 
-        <br/><hr/><br/>
 
-        <div>
-
-            <h1>border-top</h1>
-
-            <div class="box rounded-t-none">
-                <p>This is rounded-t-none</p>
-            </div>
-            <div class="box rounded-t-sm">
-                <p>This is rounded-t-sm</p>
-            </div>
-            <div class="box rounded-t">
-                <p>This is rounded-t</p>
-            </div>
-            <div class="box rounded-t-md">
-                <p>This is rounded-t-md</p>
-            </div>
-            <div class="box rounded-t-lg">
-                <p>This is rounded-t-lg</p>
-            </div>
-            <div class="box rounded-t-xl">
-                <p>This is rounded-t-xl</p>
-            </div>
-            <div class="box rounded-t-2xl">
-                <p>This is rounded-t-2xl</p>
-            </div>
-            <div class="box rounded-t-3xl">
-                <p>This is rounded-t-3xl</p>
-            </div>
-            <div class="box rounded-t-full">
-                <p>This is rounded-t-full</p>
-            </div>
-            
-        </div>
-
-        <br/><hr/><br/>
-
-        <div>
+        <!-- <div>
 
             <h1>border-bottom</h1>
 
             <div class="box rounded-b-none">
-                <p>This is rounded-b-none</p>
+                <p>rounded-b-none</p>
             </div>
             <div class="box rounded-b-sm">
-                <p>This is rounded-b-sm</p>
+                <p>rounded-b-sm</p>
             </div>
             <div class="box rounded-b">
-                <p>This is rounded-b</p>
+                <p>rounded-b</p>
             </div>
             <div class="box rounded-b-md">
-                <p>This is rounded-b-md</p>
+                <p>rounded-b-md</p>
             </div>
             <div class="box rounded-b-lg">
-                <p>This is rounded-b-lg</p>
+                <p>rounded-b-lg</p>
             </div>
             <div class="box rounded-b-xl">
-                <p>This is rounded-b-xl</p>
+                <p>rounded-b-xl</p>
             </div>
             <div class="box rounded-b-2xl">
-                <p>This is rounded-b-2xl</p>
+                <p>rounded-b-2xl</p>
             </div>
             <div class="box rounded-b-3xl">
-                <p>This is rounded-b-3xl</p>
+                <p>rounded-b-3xl</p>
             </div>
             <div class="box rounded-b-full">
-                <p>This is rounded-b-full</p>
+                <p>rounded-b-full</p>
             </div>
             
         </div>
@@ -138,31 +227,31 @@
             <h1>border-left</h1>
 
             <div class="box rounded-l-none">
-                <p>This is rounded-l-none</p>
+                <p>rounded-l-none</p>
             </div>
             <div class="box rounded-l-sm">
-                <p>This is rounded-l-sm</p>
+                <p>rounded-l-sm</p>
             </div>
             <div class="box rounded-l">
-                <p>This is rounded-l</p>
+                <p>rounded-l</p>
             </div>
             <div class="box rounded-l-md">
-                <p>This is rounded-l-md</p>
+                <p>rounded-l-md</p>
             </div>
             <div class="box rounded-l-lg">
-                <p>This is rounded-l-lg</p>
+                <p>rounded-l-lg</p>
             </div>
             <div class="box rounded-l-xl">
-                <p>This is rounded-l-xl</p>
+                <p>rounded-l-xl</p>
             </div>
             <div class="box rounded-l-2xl">
-                <p>This is rounded-l-2xl</p>
+                <p>rounded-l-2xl</p>
             </div>
             <div class="box rounded-l-3xl">
-                <p>This is rounded-l-3xl</p>
+                <p>rounded-l-3xl</p>
             </div>
             <div class="box rounded-l-full">
-                <p>This is rounded-l-full</p>
+                <p>rounded-l-full</p>
             </div>
             
         </div>
@@ -174,31 +263,31 @@
             <h1>border-right</h1>
 
             <div class="box rounded-r-none">
-                <p>This is rounded-r-none</p>
+                <p>rounded-r-none</p>
             </div>
             <div class="box rounded-r-sm">
-                <p>This is rounded-r-sm</p>
+                <p>rounded-r-sm</p>
             </div>
             <div class="box rounded-r">
-                <p>This is rounded-r</p>
+                <p>rounded-r</p>
             </div>
             <div class="box rounded-r-md">
-                <p>This is rounded-r-md</p>
+                <p>rounded-r-md</p>
             </div>
             <div class="box rounded-r-lg">
-                <p>This is rounded-r-lg</p>
+                <p>rounded-r-lg</p>
             </div>
             <div class="box rounded-r-xl">
-                <p>This is rounded-r-xl</p>
+                <p>rounded-r-xl</p>
             </div>
             <div class="box rounded-r-2xl">
-                <p>This is rounded-r-2xl</p>
+                <p>rounded-r-2xl</p>
             </div>
             <div class="box rounded-r-3xl">
-                <p>This is rounded-r-3xl</p>
+                <p>rounded-r-3xl</p>
             </div>
             <div class="box rounded-r-full">
-                <p>This is rounded-r-full</p>
+                <p>rounded-r-full</p>
             </div>
             
         </div>
@@ -210,31 +299,31 @@
             <h1>border-top-left</h1>
 
             <div class="box rounded-tl-none">
-                <p>This is rounded-tl-none</p>
+                <p>rounded-tl-none</p>
             </div>
             <div class="box rounded-tl-sm">
-                <p>This is rounded-tl-sm</p>
+                <p>rounded-tl-sm</p>
             </div>
             <div class="box rounded-tl">
-                <p>This is rounded-tl</p>
+                <p>rounded-tl</p>
             </div>
             <div class="box rounded-tl-md">
-                <p>This is rounded-tl-md</p>
+                <p>rounded-tl-md</p>
             </div>
             <div class="box rounded-tl-lg">
-                <p>This is rounded-tl-lg</p>
+                <p>rounded-tl-lg</p>
             </div>
             <div class="box rounded-tl-xl">
-                <p>This is rounded-tl-xl</p>
+                <p>rounded-tl-xl</p>
             </div>
             <div class="box rounded-tl-2xl">
-                <p>This is rounded-tl-2xl</p>
+                <p>rounded-tl-2xl</p>
             </div>
             <div class="box rounded-tl-3xl">
-                <p>This is rounded-tl-3xl</p>
+                <p>rounded-tl-3xl</p>
             </div>
             <div class="box rounded-tl-full">
-                <p>This is rounded-tl-full</p>
+                <p>rounded-tl-full</p>
             </div>
             
         </div>
@@ -246,31 +335,31 @@
             <h1>border-top-right</h1>
 
             <div class="box rounded-tr-none">
-                <p>This is rounded-tr-none</p>
+                <p>rounded-tr-none</p>
             </div>
             <div class="box rounded-tr-sm">
-                <p>This is rounded-tr-sm</p>
+                <p>rounded-tr-sm</p>
             </div>
             <div class="box rounded-tr">
-                <p>This is rounded-tr</p>
+                <p>rounded-tr</p>
             </div>
             <div class="box rounded-tr-md">
-                <p>This is rounded-tr-md</p>
+                <p>rounded-tr-md</p>
             </div>
             <div class="box rounded-tr-lg">
-                <p>This is rounded-tr-lg</p>
+                <p>rounded-tr-lg</p>
             </div>
             <div class="box rounded-tr-xl">
-                <p>This is rounded-tr-xl</p>
+                <p>rounded-tr-xl</p>
             </div>
             <div class="box rounded-tr-2xl">
-                <p>This is rounded-tr-2xl</p>
+                <p>rounded-tr-2xl</p>
             </div>
             <div class="box rounded-tr-3xl">
-                <p>This is rounded-tr-3xl</p>
+                <p>rounded-tr-3xl</p>
             </div>
             <div class="box rounded-tr-full">
-                <p>This is rounded-tr-full</p>
+                <p>rounded-tr-full</p>
             </div>
             
         </div>
@@ -282,31 +371,31 @@
             <h1>border-bottom-left</h1>
 
             <div class="box rounded-bl-none">
-                <p>This is rounded-bl-none</p>
+                <p>rounded-bl-none</p>
             </div>
             <div class="box rounded-bl-sm">
-                <p>This is rounded-bl-sm</p>
+                <p>rounded-bl-sm</p>
             </div>
             <div class="box rounded-bl">
-                <p>This is rounded-bl</p>
+                <p>rounded-bl</p>
             </div>
             <div class="box rounded-bl-md">
-                <p>This is rounded-bl-md</p>
+                <p>rounded-bl-md</p>
             </div>
             <div class="box rounded-bl-lg">
-                <p>This is rounded-bl-lg</p>
+                <p>rounded-bl-lg</p>
             </div>
             <div class="box rounded-bl-xl">
-                <p>This is rounded-bl-xl</p>
+                <p>rounded-bl-xl</p>
             </div>
             <div class="box rounded-bl-2xl">
-                <p>This is rounded-bl-2xl</p>
+                <p>rounded-bl-2xl</p>
             </div>
             <div class="box rounded-bl-3xl">
-                <p>This is rounded-bl-3xl</p>
+                <p>rounded-bl-3xl</p>
             </div>
             <div class="box rounded-bl-full">
-                <p>This is rounded-bl-full</p>
+                <p>rounded-bl-full</p>
             </div>
             
         </div>
@@ -318,34 +407,34 @@
             <h1>border-bottom-right</h1>
 
             <div class="box rounded-br-none">
-                <p>This is rounded-br-none</p>
+                <p>rounded-br-none</p>
             </div>
             <div class="box rounded-br-sm">
-                <p>This is rounded-br-sm</p>
+                <p>rounded-br-sm</p>
             </div>
             <div class="box rounded-br">
-                <p>This is rounded-br</p>
+                <p>rounded-br</p>
             </div>
             <div class="box rounded-br-md">
-                <p>This is rounded-br-md</p>
+                <p>rounded-br-md</p>
             </div>
             <div class="box rounded-br-lg">
-                <p>This is rounded-br-lg</p>
+                <p>rounded-br-lg</p>
             </div>
             <div class="box rounded-br-xl">
-                <p>This is rounded-br-xl</p>
+                <p>rounded-br-xl</p>
             </div>
             <div class="box rounded-br-2xl">
-                <p>This is rounded-br-2xl</p>
+                <p>rounded-br-2xl</p>
             </div>
             <div class="box rounded-br-3xl">
-                <p>This is rounded-br-3xl</p>
+                <p>rounded-br-3xl</p>
             </div>
             <div class="box rounded-br-full">
-                <p>This is rounded-br-full</p>
+                <p>rounded-br-full</p>
             </div>
             
-        </div>
+        </div> -->
 
 
     </body>
