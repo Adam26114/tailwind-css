@@ -1947,10 +1947,6 @@ video {
   cursor: help;
 }
 
-.cursor-context-menu {
-  cursor: context-menu;
-}
-
 .cursor-cell {
   cursor: cell;
 }
@@ -2007,12 +2003,12 @@ video {
   cursor: ne-resize;
 }
 
-.cursor-se-resize {
-  cursor: se-resize;
-}
-
 .cursor-nw-resize {
   cursor: nw-resize;
+}
+
+.cursor-se-resize {
+  cursor: se-resize;
 }
 
 .cursor-sw-resize {
@@ -2025,6 +2021,10 @@ video {
 
 .cursor-nwse-resize {
   cursor: nwse-resize;
+}
+
+.cursor-context-menu {
+  cursor: context-menu;
 }
 
 .select-none {
