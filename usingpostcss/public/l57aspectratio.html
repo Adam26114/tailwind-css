@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aspect Ratio</title>
+		<link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
+		<link href="./tailwind.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+
+		<!-- <h1>This is Tailwind CSS</h1> -->
+
+		<video src="./video/simple1.mp4" class="w-full aspect-square"></video>
+		<video src="./video/simple1.mp4" class="w-full aspect-video"></video>
+		
+		<video src="./video/simple1.mp4" class="w-96 aspect-auto border-8 shadow"></video>
+		<video src="./video/simple1.mp4" class="w-96 aspect-square shadow"></video>
+		<video src="./video/simple1.mp4" class="w-96 aspect-video border-8 shadow"></video>
+
+		<hr class="my-5"/>
+
+
+		
+	</body>
+</html>
+
+aspect-auto		aspect-ratio:auto;
+aspect-square	aspect-ratio:1/1;
+aspect-video	aspect-ratio:16/9;
