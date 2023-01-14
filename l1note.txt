@@ -1,0 +1,127 @@
+https://tailwindcss.com
+
+Integrate Methods
+1.Using CDN Link ( Content Deliver Network )
+
+2.Using Tailwind CLI   -----|
+							|-->need NodeJS
+3.Using PostCSS		   -----|
+
+
+
+
+Terminal = VS code
+Nodejs
+
+1.Using CDN Link ( Content Deliver Network )
+
+Copy the code from Tailwind CSS website > Get Started > Play CDN
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+3.Using PostCSS
+
+= Open folder "usingpostcss"
+= open terminal
+	
+npm install -D tailwindcss postcss autoprefixer
+
+= Creat tailwind.config file by copying the second code from Taildwind CSS website > Get Started > Using PostCSS
+	npx tailwindcss init
+
+= Add PostCSS file
+
+=go tailwind.config.js
+=and write down is content:["./public/**/*.html"]
+
+.  = current folder
+** =  all folder of inside in public folder
+*  =  all html files
+
+
+=> Create Tailwnd main files
+=create new folder and naming "tailwind"
+=create new file and naming "main.css" in "tailwind" folder
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+=> Build process
+=write down "npm init -y" in terminal ( so i' ts will create package.json)
+=write down in package.json > "script" "{
+	"test": "echo \"Error: no test specified\" && exit 1"
+	"build" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css"
+}
+
+-i = install
+-o = open
+
+go terminal and enter "npm run build"
+
+=> Watch 
+go to package.json , write down
+
+  "scripts": {
+    "watch" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css --watch"
+  },
+
+28BD
+
+
+-----------------------------------------------------
+3 Using PostCSS
+
+1. Terminal
+
+npm install -D tailwindcss postcss autoprefixer
+
+2. Terminal
+
+npx tailwindcss init
+
+3. Create file postcss.config.js
+
+4. postcss.config.js
+		
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+}
+
+5.Create public folder
+
+6.tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */ 
+module.exports = {
+  content: ["./public/**/*.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+7.Creat tailwind folder and in that foler create main.css
+
+8.main.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+9. Terminal
+npm init -y
+
+10.Creat Shortcut in package.json > "script"
+"build" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css",
+"watch" : "tailwind -i ./tailwind/main.css -o ./public/tailwind.css --watch"
+
+11. Terminal
+
+npm run build
+npm run watch
+
+
+-----------------------------------------------------

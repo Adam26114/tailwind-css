@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visibility</title>
+    <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
+    <link href="./tailwind.css" rel="stylesheet" type="text/css"/>
+
+    <style type="text/css">
+          .box{
+               width:200px;
+               height:200px;
+               background-color:silver;
+               border-radius:5px;
+               overflow:hidden;
+          }
+
+          .big-box{
+               width:300px;
+               height:300px;
+               background-color:silver;
+               border-radius:5px;
+               overflow:hidden;
+          }
+
+          .div1{
+               width:100px;
+               height:100px;
+               background-color:black;
+               color:#fff;
+               font-size:30px;
+               text-align:center;
+               line-height:100px;
+               font-weight:bold;
+          }
+
+          .div2{
+               width:100px;
+               height:100px;
+               background-color:orange;
+               color:#fff;
+               font-size:30px;
+               text-align:center;
+               line-height:100px;
+               font-weight:bold;
+          }
+
+          b{
+               width:300px;
+               margin-left:100px;
+          }
+    </style>
+</head>
+<body>
+
+     <h1>This is Tailwind css</h1>
+          
+     <b>flex</b>
+     <div class="box flex">
+          <div class="div1">1</div>
+          <div class="div2">2</div>
+     </div>
+
+     <br/><hr/><br/>
+               
+     <b>justify-start</b>
+     <div class="box flex justify-start">
+          <div class="div1">1</div>
+     </div>
+
+     <br/><hr/><br/>
+               
+     <b>justify-center</b>
+     <div class="box flex justify-center">
+          <div class="div1">1</div>
+     </div>
+
+     <br/><hr/><br/>
+               
+     <b>justify-end</b>
+     <div class="box flex justify-end">
+          <div class="div1">1</div>
+     </div>
+
+     <br/><hr/><br/>
+                         
+     <b>justify-between</b>
+     <div class="big-box flex justify-between">
+          <div class="div1">1</div>
+          <div class="div2">2</div>
+     </div>
+
+     <br/><hr/><br/>
+               
+     <b>items-start</b>
+     <div class="big-box flex items-start">
+          <div class="div1">1</div>
+     </div>
+
+     <br/><hr/><br/>
+          
+     <b>items-center</b>
+     <div class="big-box flex items-center">
+          <div class="div1">1</div>
+     </div>
+
+     <br/><hr/><br/>
+     
+     <b>items-end</b>
+     <div class="big-box flex items-end">
+          <div class="div1">1</div>
+     </div>
+
+     <br/><hr/><br/>
+     
+     <b>justify-center items-center</b>
+     <div class="big-box flex justify-center items-center">
+          <div class="div1">1</div>
+     </div>
+
+     <br/><hr/><br/>
+
+     <b>inline</b><br/>
+     <h1 class="bg-green-500 inline">Save Myanmar</h1>
+     <h1 class="bg-green-500 inline">Pray Myanmar</h1>
+
+     <br/><hr/><br/>
+
+     <b>block</b>
+     <h1 class="bg-rose-300 block">Save Srilanka</h1>
+     <h1 class="bg-rose-300 block">Pray Srilanka</h1>
+
+     <br/><hr/><br/>
+
+     <b>inline-block</b><br/>     
+     <h1 class="bg-sky-300 inline-block">Save Thailand</h1>
+     <h1 class="bg-sky-300 inline-block">Bye Thailand</h1>
+
+     <br/><hr/><br/>
+
+     <b>hidden</b>
+     <h1 class="bg-sky-300 hidden">Save Thailand</h1>
+     <h1 class="bg-sky-300 hidden">Bye Thailand</h1>
+
+     <br/><hr/><br/>
+
+
+</body>
+</html>
+
+<!--
+
+     flex                display:flex;
+     inline              display:inline;
+     block               display:block;
+     hidden              display:none;
+     grid                display:grid;
+
+ -->
+
+<!-- 
+
+     justify-start       justify-content:start;
+     justify-center      justify-content:center;
+     justify-end         justify-content:end;
+     justify-between     justify-content:space-between;
+     justify-arround     justify-content:space-arround;
+     justify-evenly      justify-content:space-evenly
+
+ -->
+
+ <!-- 
+     
+     items-start         aligin-items:start;
+     items-center        aligin-items:center;
+     items-end           aligin-items:end;
+
+ -->

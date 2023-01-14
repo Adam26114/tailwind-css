@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greyscale And Invert And Sepia</title>
+    <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
+    <link href="./tailwind.css" rel="stylesheet" type="text/css"/>
+
+    <style type="text/css">
+        img{
+            width:200px;
+            margin:10px;
+
+            display:flex;
+        }
+
+
+        .box{
+            display:flex;
+
+            justify-content: center;
+            align-items:center; 
+        }
+
+        p{
+            width:200px;
+            height:139px;
+
+            margin-left:100px;
+            text-align:left;
+            line-height:139px;
+            
+            font-size:20px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Tailwind Css</h1>
+
+<!--grayscale  -->
+
+    <div class="box">
+        <img class="grayscale-0" src="./img/weowedfour.jpg" alt="weowedfour"/>
+        <p>grayscale-0</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="grayscale" src="./img/weowedfour.jpg" alt="weowedfour"/>
+        <p>grayscale</p>
+    </div>
+
+    <hr/>
+
+<!--invert  -->
+
+    <div class="box">
+        <img class="invert-0" src="./img/mountain.jpg" alt="mountain"/>
+        <p>invert-0</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="invert" src="./img/mountain.jpg" alt="mountain"/>
+        <p>invert</p>
+    </div>
+
+    <hr/>
+
+<!--invert  -->
+
+    <div class="box">
+        <img class="sepia-0" src="./img/mountain.jpg" alt="mountain"/>
+        <p>sepia-0</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="sepia" src="./img/mountain.jpg" alt="mountain"/>
+        <p>sepia</p>
+    </div>
+
+
+   
+</body>
+</html>
+
+
+<!-- 
+grayscale-0                 filter:grayscale(0%) 0% 100%;
+grayscale                   filter:grayscale(100%) 0% 100%;
+-->
+
+<!-- 
+invert-0                    filter:invert(0%) 0% 100%;
+invert                      filter:invert(100%) 0% 100%;
+ -->
+
+<!--
+sepia-0                    filter:sepia(0%) 0% 100%;
+sepia                      filter:sepia(100%) 0% 100%;
+ -->
+

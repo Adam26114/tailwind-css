@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saturate</title>
+    <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
+    <link href="./tailwind.css" rel="stylesheet" type="text/css"/>
+
+    <style type="text/css">
+        img{
+            width:200px;
+            margin:10px;
+
+            display:flex;
+        }
+
+
+        .box{
+            display:flex;
+
+            justify-content: center;
+            align-items:center;
+        }
+
+        p{
+            width:200px;
+            height:139px;
+
+            margin-left:100px;
+            text-align:left;
+            line-height:139px;
+
+            font-size:20px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Tailwind Css</h1>
+
+
+    <div class="box">
+        <img class="saturate-0" src="./img/weowedsix.jpg" alt="weowedsix"/>
+        <p>saturate-0</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="saturate-50" src="./img/weowedsix.jpg" alt="weowedsix"/>
+        <p>saturate-50</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="saturate-100" src="./img/weowedsix.jpg" alt="weowedsix"/>
+        <p>saturate-100</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="saturate-150" src="./img/weowedsix.jpg" alt="weowedsix"/>
+        <p>saturate-150</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="saturate-200" src="./img/weowedsix.jpg" alt="weowedsix"/>
+        <p>saturate-200</p>
+    </div>
+
+
+   
+</body>
+</html>
+
+
+<!-- 
+saturate-0          filter:saturate(0) 0 1 2
+saturate-50*
+
+saturate-100        filter:saturate(1) 0 1 2
+saturate-150*
+
+
+saturate-200        filter:saturate(1) 0 1 2
+-->

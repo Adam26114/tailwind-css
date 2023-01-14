@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border Radius</title>
+        <link href="./tailwind.css" rel="stylesheet" type="text/css"/>
+        <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
+        <style type="text/css">
+
+            body{
+                margin:10px;
+            }
+
+            .box{
+                /* width:150px;
+                height:100px; */
+                background-color:steelblue;
+                color:#fff;
+                padding:25px;
+                margin:5px;
+
+                font-size:12px;
+                font-weight:bold;
+                
+
+                /* text-align:center;
+                line-height:100px; */
+            }
+
+            .col-md-9{
+                width:11%;
+            }
+        </style>
+    </head>
+    <body>
+
+
+
+        <h1>This is Tailwind CSS</h1>
+
+        <div class="flex">
+
+            <div class="col-md-9">
+    
+                <b>border</b>
+    
+                <button class="box rounded-none">rounded-none</button><br/>
+                <button class="box rounded-sm">rounded-sm</button><br/>
+                <button class="box rounded">rounded</button><br/>
+                <button class="box rounded-md">rounded-md</button><br/>
+                <button class="box rounded-lg">rounded-lg</button><br/>
+                <button class="box rounded-xl">rounded-xl</button><br/>
+                <button class="box rounded-2xl">rounded-2xl</button><br/>
+                <button class="box rounded-3xl">rounded-3xl</button><br/>
+                <button class="box rounded-full">rounded-full</button><br/>
+                
+            </div>
+    
+            <div class="col-md-9">
+    
+                <b>border-top</b>
+    
+                <button class="box rounded-t-none">rounded-t-none</button><br/>
+                <button class="box rounded-t-sm">rounded-t-sm</button><br/>
+                <button class="box rounded-t">rounded-t</button><br/>
+                <button class="box rounded-t-md">rounded-t-md</button><br/>
+                <button class="box rounded-t-lg">rounded-t-lg</button><br/>
+                <button class="box rounded-t-xl">rounded-t-xl</button><br/>
+                <button class="box rounded-t-2xl">rounded-t-2xl</button><br/>
+                <button class="box rounded-t-3xl">rounded-t-3xl</button><br/>
+                <button class="box rounded-t-full">rounded-t-full</button><br/>
+                
+            </div>
+
+            <div class="col-md-9">
+    
+                <b>border-bottom</b>
+    
+                <button class="box rounded-b-none">rounded-b-none</button><br/>
+                <button class="box rounded-b-sm">rounded-b-sm</button><br/>
+                <button class="box rounded-b">rounded-b</button><br/>
+                <button class="box rounded-b-md">rounded-b-md</button><br/>
+                <button class="box rounded-b-lg">rounded-b-lg</button><br/>
+                <button class="box rounded-b-xl">rounded-b-xl</button><br/>
+                <button class="box rounded-b-2xl">rounded-b-2xl</button><br/>
+                <button class="box rounded-b-3xl">rounded-b-3xl</button><br/>
+                <button class="box rounded-b-full">rounded-b-full</button><br/>
+                
+            </div>
+
+            <div class="col-md-9">
+    
+                <b>border-left</b>
+    
+                <button class="box rounded-l-none">rounded-l-none</button><br/>
+                <button class="box rounded-l-sm">rounded-l-sm</button><br/>
+                <button class="box rounded-l">rounded-l</button><br/>
+                <button class="box rounded-l-md">rounded-l-md</button><br/>
+                <button class="box rounded-l-lg">rounded-l-lg</button><br/>
+                <button class="box rounded-l-xl">rounded-l-xl</button><br/>
+                <button class="box rounded-l-2xl">rounded-l-2xl</button><br/>
+                <button class="box rounded-l-3xl">rounded-l-3xl</button><br/>
+                <button class="box rounded-l-full">rounded-l-full</button><br/>
+                
+            </div>
+            
+            <div class="col-md-9">
+    
+                <b>border-right</b>
+    
+                <button class="box rounded-r-none">rounded-r-none</button><br/>
+                <button class="box rounded-r-sm">rounded-r-sm</button><br/>
+                <button class="box rounded-r">rounded-r</button><br/>
+                <button class="box rounded-r-md">rounded-r-md</button><br/>
+                <button class="box rounded-r-lg">rounded-r-lg</button><br/>
+                <button class="box rounded-r-xl">rounded-r-xl</button><br/>
+                <button class="box rounded-r-2xl">rounded-r-2xl</button><br/>
+                <button class="box rounded-r-3xl">rounded-r-3xl</button><br/>
+                <button class="box rounded-r-full">rounded-r-full</button><br/>
+                
+            </div>
+
+            <div class="col-md-9">
+    
+                <b>border-top-left</b>
+    
+                <button class="box rounded-tl-none">rounded-tl-none</button><br/>
+                <button class="box rounded-tl-sm">rounded-tl-sm</button><br/>
+                <button class="box rounded-tl">rounded-tl</button><br/>
+                <button class="box rounded-tl-md">rounded-tl-md</button><br/>
+                <button class="box rounded-tl-lg">rounded-tl-lg</button><br/>
+                <button class="box rounded-tl-xl">rounded-tl-xl</button><br/>
+                <button class="box rounded-tl-2xl">rounded-tl-2xl</button><br/>
+                <button class="box rounded-tl-3xl">rounded-tl-3xl</button><br/>
+                <button class="box rounded-tl-full">rounded-tl-full</button><br/>
+                
+            </div>
+
+            <div class="col-md-9">
+    
+                <b>border-top-right</b>
+    
+                <button class="box rounded-tr-none">rounded-tr-none</button><br/>
+                <button class="box rounded-tr-sm">rounded-tr-sm</button><br/>
+                <button class="box rounded-tr">rounded-tr</button><br/>
+                <button class="box rounded-tr-md">rounded-tr-md</button><br/>
+                <button class="box rounded-tr-lg">rounded-tr-lg</button><br/>
+                <button class="box rounded-tr-xl">rounded-tr-xl</button><br/>
+                <button class="box rounded-tr-2xl">rounded-tr-2xl</button><br/>
+                <button class="box rounded-tr-3xl">rounded-tr-3xl</button><br/>
+                <button class="box rounded-tr-full">rounded-tr-full</button><br/>
+                
+            </div>
+
+            <div class="col-md-9">
+    
+                <b>border-bottom-left</b>
+    
+                <button class="box rounded-bl-none">rounded-bl-none</button><br/>
+                <button class="box rounded-bl-sm">rounded-bl-sm</button><br/>
+                <button class="box rounded-bl">rounded-bl</button><br/>
+                <button class="box rounded-bl-md">rounded-bl-md</button><br/>
+                <button class="box rounded-bl-lg">rounded-bl-lg</button><br/>
+                <button class="box rounded-bl-xl">rounded-bl-xl</button><br/>
+                <button class="box rounded-bl-2xl">rounded-bl-2xl</button><br/>
+                <button class="box rounded-bl-3xl">rounded-bl-3xl</button><br/>
+                <button class="box rounded-bl-full">rounded-bl-full</button><br/>
+                
+            </div>
+
+            <div class="col-md-9">
+    
+                <b>border-bottom-rigth</b>
+    
+                <button class="box rounded-br-none">rounded-br-none</button><br/>
+                <button class="box rounded-br-sm">rounded-br-sm</button><br/>
+                <button class="box rounded-br">rounded-br</button><br/>
+                <button class="box rounded-br-md">rounded-br-md</button><br/>
+                <button class="box rounded-br-lg">rounded-br-lg</button><br/>
+                <button class="box rounded-br-xl">rounded-br-xl</button><br/>
+                <button class="box rounded-br-2xl">rounded-br-2xl</button><br/>
+                <button class="box rounded-br-3xl">rounded-br-3xl</button><br/>
+                <button class="box rounded-br-full">rounded-br-full</button><br/>
+                
+            </div>
+            
+        </div>
+
+
+        <!-- <div>
+
+            <h1>border-bottom</h1>
+
+            <div class="box rounded-b-none">
+                <p>rounded-b-none</p>
+            </div>
+            <div class="box rounded-b-sm">
+                <p>rounded-b-sm</p>
+            </div>
+            <div class="box rounded-b">
+                <p>rounded-b</p>
+            </div>
+            <div class="box rounded-b-md">
+                <p>rounded-b-md</p>
+            </div>
+            <div class="box rounded-b-lg">
+                <p>rounded-b-lg</p>
+            </div>
+            <div class="box rounded-b-xl">
+                <p>rounded-b-xl</p>
+            </div>
+            <div class="box rounded-b-2xl">
+                <p>rounded-b-2xl</p>
+            </div>
+            <div class="box rounded-b-3xl">
+                <p>rounded-b-3xl</p>
+            </div>
+            <div class="box rounded-b-full">
+                <p>rounded-b-full</p>
+            </div>
+            
+        </div>
+
+        <br/><hr/><br/>
+
+        <div>
+
+            <h1>border-left</h1>
+
+            <div class="box rounded-l-none">
+                <p>rounded-l-none</p>
+            </div>
+            <div class="box rounded-l-sm">
+                <p>rounded-l-sm</p>
+            </div>
+            <div class="box rounded-l">
+                <p>rounded-l</p>
+            </div>
+            <div class="box rounded-l-md">
+                <p>rounded-l-md</p>
+            </div>
+            <div class="box rounded-l-lg">
+                <p>rounded-l-lg</p>
+            </div>
+            <div class="box rounded-l-xl">
+                <p>rounded-l-xl</p>
+            </div>
+            <div class="box rounded-l-2xl">
+                <p>rounded-l-2xl</p>
+            </div>
+            <div class="box rounded-l-3xl">
+                <p>rounded-l-3xl</p>
+            </div>
+            <div class="box rounded-l-full">
+                <p>rounded-l-full</p>
+            </div>
+            
+        </div>
+
+        <br/><hr/><br/>
+
+        <div>
+
+            <h1>border-right</h1>
+
+            <div class="box rounded-r-none">
+                <p>rounded-r-none</p>
+            </div>
+            <div class="box rounded-r-sm">
+                <p>rounded-r-sm</p>
+            </div>
+            <div class="box rounded-r">
+                <p>rounded-r</p>
+            </div>
+            <div class="box rounded-r-md">
+                <p>rounded-r-md</p>
+            </div>
+            <div class="box rounded-r-lg">
+                <p>rounded-r-lg</p>
+            </div>
+            <div class="box rounded-r-xl">
+                <p>rounded-r-xl</p>
+            </div>
+            <div class="box rounded-r-2xl">
+                <p>rounded-r-2xl</p>
+            </div>
+            <div class="box rounded-r-3xl">
+                <p>rounded-r-3xl</p>
+            </div>
+            <div class="box rounded-r-full">
+                <p>rounded-r-full</p>
+            </div>
+            
+        </div>
+
+        <br/><hr/><br/>
+
+        <div>
+
+            <h1>border-top-left</h1>
+
+            <div class="box rounded-tl-none">
+                <p>rounded-tl-none</p>
+            </div>
+            <div class="box rounded-tl-sm">
+                <p>rounded-tl-sm</p>
+            </div>
+            <div class="box rounded-tl">
+                <p>rounded-tl</p>
+            </div>
+            <div class="box rounded-tl-md">
+                <p>rounded-tl-md</p>
+            </div>
+            <div class="box rounded-tl-lg">
+                <p>rounded-tl-lg</p>
+            </div>
+            <div class="box rounded-tl-xl">
+                <p>rounded-tl-xl</p>
+            </div>
+            <div class="box rounded-tl-2xl">
+                <p>rounded-tl-2xl</p>
+            </div>
+            <div class="box rounded-tl-3xl">
+                <p>rounded-tl-3xl</p>
+            </div>
+            <div class="box rounded-tl-full">
+                <p>rounded-tl-full</p>
+            </div>
+            
+        </div>
+
+        <br/><hr/><br/>
+
+        <div>
+
+            <h1>border-top-right</h1>
+
+            <div class="box rounded-tr-none">
+                <p>rounded-tr-none</p>
+            </div>
+            <div class="box rounded-tr-sm">
+                <p>rounded-tr-sm</p>
+            </div>
+            <div class="box rounded-tr">
+                <p>rounded-tr</p>
+            </div>
+            <div class="box rounded-tr-md">
+                <p>rounded-tr-md</p>
+            </div>
+            <div class="box rounded-tr-lg">
+                <p>rounded-tr-lg</p>
+            </div>
+            <div class="box rounded-tr-xl">
+                <p>rounded-tr-xl</p>
+            </div>
+            <div class="box rounded-tr-2xl">
+                <p>rounded-tr-2xl</p>
+            </div>
+            <div class="box rounded-tr-3xl">
+                <p>rounded-tr-3xl</p>
+            </div>
+            <div class="box rounded-tr-full">
+                <p>rounded-tr-full</p>
+            </div>
+            
+        </div>
+
+        <br/><hr/><br/>
+
+        <div>
+
+            <h1>border-bottom-left</h1>
+
+            <div class="box rounded-bl-none">
+                <p>rounded-bl-none</p>
+            </div>
+            <div class="box rounded-bl-sm">
+                <p>rounded-bl-sm</p>
+            </div>
+            <div class="box rounded-bl">
+                <p>rounded-bl</p>
+            </div>
+            <div class="box rounded-bl-md">
+                <p>rounded-bl-md</p>
+            </div>
+            <div class="box rounded-bl-lg">
+                <p>rounded-bl-lg</p>
+            </div>
+            <div class="box rounded-bl-xl">
+                <p>rounded-bl-xl</p>
+            </div>
+            <div class="box rounded-bl-2xl">
+                <p>rounded-bl-2xl</p>
+            </div>
+            <div class="box rounded-bl-3xl">
+                <p>rounded-bl-3xl</p>
+            </div>
+            <div class="box rounded-bl-full">
+                <p>rounded-bl-full</p>
+            </div>
+            
+        </div>
+
+        <br/><hr/><br/>
+
+        <div>
+
+            <h1>border-bottom-right</h1>
+
+            <div class="box rounded-br-none">
+                <p>rounded-br-none</p>
+            </div>
+            <div class="box rounded-br-sm">
+                <p>rounded-br-sm</p>
+            </div>
+            <div class="box rounded-br">
+                <p>rounded-br</p>
+            </div>
+            <div class="box rounded-br-md">
+                <p>rounded-br-md</p>
+            </div>
+            <div class="box rounded-br-lg">
+                <p>rounded-br-lg</p>
+            </div>
+            <div class="box rounded-br-xl">
+                <p>rounded-br-xl</p>
+            </div>
+            <div class="box rounded-br-2xl">
+                <p>rounded-br-2xl</p>
+            </div>
+            <div class="box rounded-br-3xl">
+                <p>rounded-br-3xl</p>
+            </div>
+            <div class="box rounded-br-full">
+                <p>rounded-br-full</p>
+            </div>
+            
+        </div> -->
+
+
+    </body>
+</html>
+
+<!-- 
+rounder-none            border-radius:0px;
+rounder-sm              border-radius:2px;
+rounder                 border-radius:4px;
+rounder-md              border-radius:6px;
+rounder-lg              border-radius:8px;
+rounder-xl              border-radius:16px;
+rounder-2xl             border-radius:32px;
+rounder-3xl             border-radius:64px;
+rounder-fill            border-radius:50%;
+-->
+
+<!-- 
+rounder-t-none          border-top-left-radius:0px;border-top-right-radius:0px;
+rounder-t-sm            border-top-left-radius:2px;border-top-right-radius:2px;
+rounder-t               border-top-left-radius:4px;border-top-right-radius:4px;
+rounder-t-md            border-top-left-radius:6px;border-top-right-radius:8px;
+rounder-t-lg              
+rounder-t-xl             
+rounder-t-2xl            
+rounder-t-3xl             
+rounder-t-fill           
+-->
+
+<!-- 
+rounder-b-none          border-bottom-left-radius:0px;border-bottom-right-radius:0px;
+rounder-b-sm            border-bottom-left-radius:2px;border-bottom-right-radius:2px;
+rounder-b               border-bottom-left-radius:4px;border-bottom-right-radius:4px;
+rounder-b-md            border-bottom-left-radius:6px;border-bottom-right-radius:8px;
+rounder-b-lg              
+rounder-b-xl             
+rounder-b-2xl            
+rounder-b-3xl             
+rounder-b-fill           
+-->
+
+<!-- 
+rounder-l-none          border-top-left-radius:0px;border-bottom-left-radius:0px;
+rounder-l-sm            border-top-left-radius:2px;border-bottom-left-radius:2px;
+rounder-l               border-top-left-radius:4px;border-bottom-left-radius:4px;
+rounder-l-md            border-top-left-radius:6px;border-bottom-left-radius:8px;
+rounder-l-lg              
+rounder-l-xl             
+rounder-l-2xl            
+rounder-l-3xl             
+rounder-l-fill           
+-->
+
+
+<!-- 
+rounder-r-none          border-top-right-radius:0px;border-bottom-right-radius:0px;
+rounder-r-sm            border-top-right-radius:2px;border-bottom-right-radius:2px;
+rounder-r               border-top-right-radius:4px;border-bottom-right-radius:4px;
+rounder-r-md            border-top-right-radius:6px;border-bottom-right-radius:8px;
+rounder-r-lg              
+rounder-r-xl             
+rounder-r-2xl            
+rounder-r-3xl             
+rounder-r-fill           
+-->
+
+<!-- 
+border-top-left-radius
+
+rounder-tl-none          border-top-left-radius:0px;
+rounder-tl-sm            border-top-left-radius:2px;
+rounder-tl               border-top-left-radius:4px;;
+rounder-tl-md            border-top-left-radius:6px;
+rounder-tl-lg              
+rounder-tl-xl             
+rounder-tl-2xl            
+rounder-tl-3xl             
+rounder-tl-fill           
+-->
+
+<!-- 
+border-top-right-radius
+
+rounder-tr-none          border-top-right-radius:0px;
+rounder-tr-sm            border-top-right-radius:2px;
+rounder-tr               border-top-right-radius:4px;
+rounder-tr-md            border-top-right-radius:6px;
+rounder-tr-lg              
+rounder-tr-xl             
+rounder-tr-2xl            
+rounder-tr-3xl             
+rounder-tr-fill           
+-->
+
+
+<!-- 
+border-bottom-left-radius
+
+rounder-bl-none          border-bottom-left-radius:0px;
+rounder-bl-sm            border-bottom-left-radius:2px;
+rounder-bl               border-bottom-left-radius:4px;;
+rounder-bl-md            border-bottom-left-radius:6px;
+rounder-bl-lg              
+rounder-bl-xl             
+rounder-bl-2xl            
+rounder-bl-3xl             
+rounder-bl-fill           
+-->
+
+
+<!-- 
+border-bottom-right-radius
+
+rounder-br-none          border-bottom-right-radius:0px;
+rounder-br-sm            border-bottom-right-radius:2px;
+rounder-br               border-bottom-right-radius:4px;;
+rounder-br-md            border-bottom-right-radius:6px;
+rounder-br-lg              
+rounder-br-xl             
+rounder-br-2xl            
+rounder-br-3xl             
+rounder-br-fill           
+-->

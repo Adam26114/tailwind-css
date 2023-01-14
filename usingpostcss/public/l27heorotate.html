@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HUE Rotate</title>
+    <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">
+    <link href="./tailwind.css" rel="stylesheet" type="text/css"/>
+
+    <style type="text/css">
+        img{
+            width:200px;
+            margin:10px;
+
+            display:flex;
+        }
+
+
+        .box{
+            display:flex;
+
+            justify-content: center;
+            align-items:center;
+        }
+
+        p{
+            width:200px;
+            height:139px;
+
+            margin-left:100px;
+            text-align:left;
+            line-height:139px;
+            
+            font-size:20px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Tailwind Css</h1>
+
+
+    <div class="box">
+        <img class="hue-rotate-0" src="./img/weowedfive.jpg" alt="weowedfive"/>
+        <p>hue-rotate-0</p>
+    </div>
+
+    <hr/>
+
+    <div class="box">
+        <img class="hue-rotate-90" src="./img/weowedfive.jpg" alt="weowedfive"/>
+        <p>hue-rotate-90</p>
+    </div>
+
+
+   
+</body>
+</html>
+
+
+<!-- 
+hue-rotate-0        filter:hue-rotate(deg) 0deg 90deg 180deg 360deg;
+
+hue-rotate-15       filter:hue-rotate(15deg)*
+hue-rotate-30       filter:hue-rotate(30deg)*
+hue-rotate-60       filter:hue-rotate(60deg)*
+
+hue-rotate-90       filter:hue-rotate(90deg)
+hue-rotate-180      filter:hue-rotate(180deg)
+-->
