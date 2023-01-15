@@ -10,66 +10,68 @@
     </head>
     <body>
         
-    <h1 class="">This is a tailwind css using PostCSS</h1>
+        <h1 class="">This is a tailwind css using PostCSS</h1>
 
-    <ul class="list-none p-5">
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-    </ul>
+        <hr class="my-5"/>
 
+        <div class="columns-3">
+            <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>6. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
 
-    <ul class="list-disc p-5">
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-    </ul>
+        <hr class="my-5"/>
 
-    <ul class="list-decimal p-5">
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-    </ul>
+        <div class="columns-2">
+            <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="break-after-column">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>6. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
 
-    <hr class="my-5"/>
+        <hr class="my-5"/>
 
-    <ul class="w-40 list-decimal list-inside p-5">
-        <li>A red color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-    </ul>
+        <div class="columns-2">
+            <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="break-after-column">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="break-after-column">5. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  <!-- No 6 beem seen to another column -->
+            <p>6. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        <hr class="my-5"/>
 
-    <ul class="w-40 list-decimal list-outside p-5">
-        <li>A red color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-        <li>A blue color Lorem Ipsum is simply dummy text of the printing.</li>
-    </ul>
+        <div class="columns-2">
+            <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="break-before-column">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>5. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+            <p>6. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        <hr class="my-5"/>
 
+        <div class="columns-3">
+            <p>1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="break-before-column">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>4. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="break-before-column">5. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+            <p>6. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
     </body>
 </html>
 
 <!-- 
-lsit-none       list-style-type:none;
-lsit-disc       list-style-type:disc;
-lsit-decimal    list-style-type:decimal;
- -->
-
-
- <!-- 
-
-list-inside     list-style-position:inside;
-list-outside    list-style-position:oudtside;
-
+    break-after-column      break-after:column;
+    break-before-column     break-before:column;
   -->
 
 

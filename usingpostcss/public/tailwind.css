@@ -2244,6 +2244,16 @@ video {
        columns: 80rem;
 }
 
+.break-before-column {
+  -moz-column-break-before: column;
+       break-before: column;
+}
+
+.break-after-column {
+  -moz-column-break-after: column;
+       break-after: column;
+}
+
 .grid-cols-11 {
   grid-template-columns: repeat(11, minmax(0, 1fr));
 }
