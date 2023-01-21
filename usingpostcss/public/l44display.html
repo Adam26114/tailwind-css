@@ -53,16 +53,26 @@
 <body>
 
      <h1>This is Tailwind css</h1>
-     
-     <h1><b>justify content</b></h1>
 
+     
      <b>flex</b>
      <div class="box flex">
           <div class="div1">1</div>
           <div class="div2">2</div>
      </div>
+     
+     <br/><br/>
+     
+     <b>grid</b>
+     <div class="box grid">
+          <div class="div1">1</div>
+          <div class="div2">2</div>
+     </div>
 
      <br/><hr/><br/>
+
+     
+     <h1><b>justify content (P)</b></h1>
                
      <b>justify-start</b>
      <div class="box flex justify-start">
@@ -93,6 +103,8 @@
 
      <br/><hr/><br/>
                
+     <h1><b>Align item (P)</b></h1>
+
      <b>items-start</b>
      <div class="big-box flex items-start">
           <div class="div1">1</div>
@@ -146,6 +158,25 @@
 
      <br/><hr/><br/>
 
+               
+     <b>justify-items (G) - (P)</b>
+     <b>justify-items-start</b>
+     <div class="box grid justify-items-start">
+          <div class="div1">1</div>
+          <div class="div1">1</div>          
+     </div>
+     
+     <b>justify-items-center</b>
+     <div class="box grid justify-items-center">
+          <div class="div1">1</div>
+          <div class="div1">1</div>          
+     </div>
+     
+     <b>justify-items-end</b>
+     <div class="box grid justify-items-end">
+          <div class="div1">1</div>
+          <div class="div1">1</div>          
+     </div>
 
 </body>
 </html>
@@ -165,6 +196,7 @@
      justify-start       justify-content:start;
      justify-center      justify-content:center;
      justify-end         justify-content:end;
+
      justify-between     justify-content:space-between;
      justify-arround     justify-content:space-arround;
      justify-evenly      justify-content:space-evenly
@@ -178,13 +210,16 @@
      justify-items-start      justify-items:start;
      justify-items-center     justify-items:center;
      justify-items-end        justify-items:end;
+
      justify-items-stretch    justify-items:stretch;
 
      justify-self-auto        justify-self:auto;  
+
      justify-self-start       justify-self:start; 
      justify-self-senter      justify-self:senter; 
-     justify-self-end         justify-self:end; 
-     justify-self-stretch      justify-self:stretch; 
+     justify-self-end         justify-self:end;
+
+     justify-self-stretch     justify-self:stretch; 
 
  -->
 
@@ -197,10 +232,24 @@
  -->
 
  <!-- 
-     self-auto        self:auto;  
-     self-start       self:start; 
-     self-senter      self:senter; 
-     self-end         self:end; 
-     self-stretch     self:stretch; 
-     self-baseline     self:baseline; 
+     self-auto           align-self:auto;
+
+     self-start          align-self:start; 
+     self-senter         align-self:senter; 
+     self-end            align-self:end; 
+
+     self-stretch        align-self:stretch; 
+     self-baseline       align-self:baseline; 
   -->
+
+<!-- 
+     contemt-start       align-contents:felx-start;
+     contemt-center      align-contents:center;
+     contemt-end         align-contents:felx-end;
+
+     contemt-between     align-content:space-between;
+     contemt-around      align-content:space-around;
+     contemt-evenly      align-content:space-evenly;
+     contemt-baseline    align-content:baseline;
+
+ -->
