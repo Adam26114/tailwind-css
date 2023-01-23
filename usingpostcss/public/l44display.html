@@ -22,6 +22,22 @@
                overflow:hidden;
           }
 
+          .big-box-2{
+               width:300px;
+               height:200px;
+               background-color:silver;
+               border-radius:5px;
+               overflow:hidden;
+          }
+
+          .big-box-3{
+               width:500px;
+               height:300px;
+               background-color:silver;
+               border-radius:5px;
+               overflow:hidden;
+          }
+
           .div1{
                width:100px;
                height:100px;
@@ -161,22 +177,186 @@
                
      <b>justify-items (G) - (P)</b>
      <b>justify-items-start</b>
-     <div class="box grid justify-items-start">
+     <div class="big-box-2 grid justify-items-start">
           <div class="div1">1</div>
           <div class="div1">1</div>          
      </div>
+     
+     <br/><hr/><br/>
      
      <b>justify-items-center</b>
-     <div class="box grid justify-items-center">
+     <div class="big-box-2 grid justify-items-center">
           <div class="div1">1</div>
           <div class="div1">1</div>          
      </div>
      
+     <br/><hr/><br/>
+     
      <b>justify-items-end</b>
-     <div class="box grid justify-items-end">
+     <div class="big-box-2 grid justify-items-end">
           <div class="div1">1</div>
           <div class="div1">1</div>          
      </div>
+     
+     <br/><hr/><br/>
+          
+     <b>justify-items-stretch</b>
+     <div class="big-box-2 grid justify-items-stretch">
+          <div class="div1">1</div>
+          <div class="div1">1</div>          
+     </div> 
+          
+     <br/><hr/><br/>
+          
+     <b>justify-items (G) - (C)</b>
+     <b>justify-self-auto</b>
+     <div class="big-box-2 grid">
+          <div class="div1 justify-self-auto">1</div>
+          <div class="div1">1</div>          
+     </div>
+
+     <br/><hr/><br/>
+          
+     <b>justify-self-start</b>
+     <div class="big-box-2 grid">
+          <div class="div1 justify-self-start">1</div>
+          <div class="div1">1</div>          
+     </div>
+          
+     <br/><hr/><br/>
+          
+     <b>justify-self-center</b>
+     <div class="big-box-2 grid">
+          <div class="div1 justify-self-center">1</div>
+          <div class="div1">1</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+          
+     <b>justify-self-end</b>
+     <div class="big-box-2 grid">
+          <div class="div1 justify-self-end">1</div>
+          <div class="div1">1</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>justify-items (G) - (C)</b>
+     <b>align-self-start</b>
+     <div class="big-box-2 flex">
+          <div class="div1">1</div>
+          <div class="div1 self-start">2</div>          
+          <div class="div1">3</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>align-self-center</b>
+     <div class="big-box-2 flex">
+          <div class="div1">1</div>
+          <div class="div1 self-center">2</div>          
+          <div class="div1">3</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>align-self-end</b>
+     <div class="big-box-2 flex">
+          <div class="div1">1</div>
+          <div class="div1 self-end">2</div>          
+          <div class="div1">3</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>align-content-start</b>
+     <div class="big-box-3 grid grid-cols-3 content-start" style="height:300px;">
+          <div class="div1">1</div>
+          <div class="div1">2</div>          
+          <div class="div1">3</div>          
+          <div class="div2">4</div>          
+          <div class="div2">5</div>          
+          <div class="div2">6</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>align-content-center</b>
+     <div class="big-box-3 grid grid-cols-3 content-center" style="height:300px;">
+          <div class="div1">1</div>
+          <div class="div1">2</div>          
+          <div class="div1">3</div>          
+          <div class="div2">4</div>          
+          <div class="div2">5</div>          
+          <div class="div2">6</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>align-content-end</b>
+     <div class="big-box-3 grid grid-cols-3 content-end" style="height:300px;">
+          <div class="div1">1</div>
+          <div class="div1">2</div>          
+          <div class="div1">3</div>          
+          <div class="div2">4</div>          
+          <div class="div2">5</div>          
+          <div class="div2">6</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>align-content-around</b>
+     <div class="big-box-3 grid grid-cols-3 content-around" style="height:300px;">
+          <div class="div1">1</div>
+          <div class="div1">2</div>          
+          <div class="div1">3</div>          
+          <div class="div2">4</div>          
+          <div class="div2">5</div>          
+          <div class="div2">6</div>          
+     </div>  
+     
+     <br/><hr/><br/>
+
+     <b>align-content-evenly</b>
+     <div class="big-box-3 grid grid-cols-3 content-evenly" style="height:300px;">
+          <div class="div1">1</div>
+          <div class="div1">2</div>          
+          <div class="div1">3</div>          
+          <div class="div2">4</div>          
+          <div class="div2">5</div>          
+          <div class="div2">6</div>          
+     </div> 
+          
+     <br/><hr/><br/>
+
+     <b>align-content-between</b>
+     <div class="big-box-3 grid grid-cols-3 content-between" style="height:300px;">
+          <div class="div1">1</div>
+          <div class="div1">2</div>          
+          <div class="div1">3</div>          
+          <div class="div2">4</div>          
+          <div class="div2">5</div>          
+          <div class="div2">6</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+     <b>align-content-baseline</b>
+     <div class="big-box-3 grid grid-cols-3 content-baseline" style="height:300px;">
+          <div class="div1">1</div>
+          <div class="div1">2</div>          
+          <div class="div1">3</div>          
+          <div class="div2">4</div>          
+          <div class="div2">5</div>          
+          <div class="div2">6</div>          
+     </div>  
+          
+     <br/><hr/><br/>
+
+
+
+
+
 
 </body>
 </html>
@@ -253,3 +433,5 @@
      contemt-baseline    align-content:baseline;
 
  -->
+
+<!-- 21AC -->

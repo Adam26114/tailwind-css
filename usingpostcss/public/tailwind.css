@@ -2302,6 +2302,10 @@ video {
   grid-template-columns: none;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -2320,6 +2324,26 @@ video {
 
 .place-items-stretch {
   place-items: stretch;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.content-start {
+  align-content: flex-start;
+}
+
+.content-end {
+  align-content: flex-end;
+}
+
+.content-between {
+  align-content: space-between;
+}
+
+.content-around {
+  align-content: space-around;
 }
 
 .items-start {
@@ -2503,6 +2527,10 @@ video {
   align-self: flex-end;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .self-stretch {
   align-self: stretch;
 }
@@ -2521,6 +2549,10 @@ video {
 
 .justify-self-end {
   justify-self: end;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 .justify-self-stretch {
