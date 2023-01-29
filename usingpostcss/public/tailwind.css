@@ -2254,6 +2254,10 @@ video {
        break-after: column;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-11 {
   grid-template-columns: repeat(11, minmax(0, 1fr));
 }
@@ -2302,12 +2306,20 @@ video {
   grid-template-columns: none;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-row-reverse {
   flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .place-items-start {
@@ -2344,6 +2356,10 @@ video {
 
 .content-around {
   align-content: space-around;
+}
+
+.content-evenly {
+  align-content: space-evenly;
 }
 
 .items-start {
