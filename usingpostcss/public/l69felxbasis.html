@@ -10,119 +10,13 @@
     </head>
     <body>
         
-        <h1 class="">This is a tailwind css using PostCSS</h1>
+        
+        <b>flex</b>
 
-        <b>flex-none</b>
-
-        <div class="flex flex-row text-white">
-           <div class="w-44 h-20 bg-stone-900 flex-none">DIV 1</div><!-- ကျန်တဲ့ဟာ ကြုံ့ပီးကျန်တာမကြုံံ -->
+        <div class=" text-white ">
+            <div class="w-44 h-20 bg-green-900">DIV 1</div>
             <div class="w-44 h-20 bg-green-900">DIV 2</div>
             <div class="w-44 h-20 bg-green-900">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-        <hr class="my-5"/>
-
-        <b>flex-auto</b>
-
-        <div class="flex flex-row text-white ">
-           <div class="w-44 h-20 bg-stone-900 flex-auto">DIV 1</div><!-- နေရာအပြည့်ယူသွားမယ် -->
-            <div class="w-44 h-20 bg-green-900">DIV 2</div>
-            <div class="w-44 h-20 bg-green-900">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-
-        <hr class="my-5"/>
-
-        <b>flex-1</b>
-
-        <div class="flex flex-row text-white ">
-           <div class="w-44 h-20 bg-stone-900 flex-1">DIV 1</div><!-- စာလုံးsize အနည်းဆုံးကျန်တယ် -->
-            <div class="w-44 h-20 bg-green-900">DIV 2</div>
-            <div class="w-44 h-20 bg-green-900">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-        <hr class="my-5"/>
-
-        <b>flex-initial</b>
-
-        <div class="flex flex-row text-white ">
-           <div class="w-44 h-20 bg-stone-900 flex-initial">DIV 1</div><!-- default -->
-            <div class="w-44 h-20 bg-green-900">DIV 2</div>
-            <div class="w-44 h-20 bg-green-900">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-        <hr class="my-5"/>
-
-        <b>flex-initial and flex-auto</b>
-
-        <div class="flex flex-row text-white ">
-            <div class="w-44 h-20 bg-stone-900 flex-initial">DIV 1</div><!-- default -->
-            <div class="w-44 h-20 bg-green-900">DIV 2</div>
-            <div class="w-44 h-20 bg-rose-900 flex-auto">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-        <hr class="my-5"/>
-
-        <b>grow</b>
-
-        <div class="flex flex-row text-white ">
-            <div class="w-44 h-20 bg-stone-900 flex-none">DIV 1</div>
-            <div class="w-44 h-20 bg-green-900 grow">DIV 2</div><!-- grow = felx-auto -->
-            <div class="w-44 h-20 bg-rose-900 flex-none">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-        <hr class="my-5"/>
-
-        <b>grow-0</b>
-
-        <div class="flex flex-row text-white ">
-            <div class="w-44 h-20 bg-stone-900 flex-none">DIV 1</div>
-            <div class="w-44 h-20 bg-green-900 grow-0">DIV 2</div><!-- grow-0 = flex-initial-->
-            <div class="w-44 h-20 bg-rose-900 grow">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-        <hr class="my-5"/>
-
-        <b>flex-shrink</b>
-
-        <div class="flex flex-row text-white ">
-            <div class="w-44 h-20 bg-stone-900 flex-none">DIV 1</div>
-            <div class="w-44 h-20 bg-green-900 shink">DIV 2</div>
-            <div class="w-44 h-20 bg-rose-900 flex-none">DIV 3</div>
-            <div class="w-44 h-20 bg-green-900">DIV 4</div>
-            <div class="w-44 h-20 bg-green-900">DIV 5</div>
-            <div class="w-44 h-20 bg-green-900">DIV 6</div>
-        </div>
-        
-        <hr class="my-5"/>
-
-        <b>flex-shrink-0</b>
-
-        <div class="flex flex-row text-white ">
-            <div class="w-44 h-20 bg-stone-900 flex-none">DIV 1</div>
-            <div class="w-44 h-20 bg-green-900 shink-0">DIV 2</div>
-            <div class="w-44 h-20 bg-rose-900 flex-none">DIV 3</div>
             <div class="w-44 h-20 bg-green-900">DIV 4</div>
             <div class="w-44 h-20 bg-green-900">DIV 5</div>
             <div class="w-44 h-20 bg-green-900">DIV 6</div>
@@ -135,16 +29,53 @@
 </html>
 
 <!-- 
-    flex-none           flex:none;
-    flex-auto           flex:1 1 auto;  (flex-grow flex-shrink | auto | initial| inherit)
-    flex-1              
-    flex-initial
+    basis-auto          felx-basis:auto;    
+    basis-full          felx-basis:100%;    
+
+    basis-0             felx-basis:0px;
+    basis-px            -basis:1pxx;
+    basis-0.5
+    basis-1             flex-basis:0.25rem 4px;
+    1.5 2 2.5 3.3 3.5 4 = 1rem(16px)
+
+    5 6 7 ... 12
+    14 16
+    20 24 28 32 36 40 44 48 52 60 64 72 80
+    96
+
+    basis-1/2           felx-basis:50%;
+
+    basis:1/3;          flex-basic:36.333%;
+    basis:2/3;          flex-basic:66.666%;
+
+    basis:1/4; 
+    basis:2/4; 
+    basis:3/4; 
+
+    basis:1/5; 
+    basis:2/5; 
+    basis:3/5; 
+    basis:5/5; 
+
+    basis:1/6; 
+    basis:2/6; 
+    basis:3/6; 
+    basis:4/6; 
+    basis:5/6; 
+
+
+    basis:1/12; 
+    basis:2/12; 
+    basis:3/12; 
+    basis:4/12; 
+    basis:5/12; 
+    basis:6/12; 
+    basis:7/12; 
+    basis:8/12; 
+    basis:9/12; 
+    basis:10/12; 
+    basis:11/12; 
+    
 -->
 
-<!-- 
-    grow-1              flex-grow:1;
-    grow-0              flex-grow:0;
-
-    shrink              flex-shrink:1;
-    shrink-0            flex-shrink:0;
- -->
+<!-- 29FL -->

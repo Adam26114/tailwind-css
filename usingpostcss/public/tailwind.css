@@ -1166,6 +1166,34 @@ video {
   flex-grow: 1;
 }
 
+.basis-auto {
+  flex-basis: auto;
+}
+
+.basis-full {
+  flex-basis: 100%;
+}
+
+.basis-0 {
+  flex-basis: 0px;
+}
+
+.basis-px {
+  flex-basis: 1px;
+}
+
+.basis-0\.5 {
+  flex-basis: 0.125rem;
+}
+
+.basis-1 {
+  flex-basis: 0.25rem;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
 .table-auto {
   table-layout: auto;
 }
