@@ -7584,6 +7584,10 @@ video {
     margin-bottom: 0px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -7594,6 +7598,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:items-center {
