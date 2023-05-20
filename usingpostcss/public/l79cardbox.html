@@ -4,11 +4,39 @@
         <title>Card Box</title>
         <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" rel="icon" type="image/png">    
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="./tailwind.css" rel="stylesheet" type="text/css" />    
+        <link href="./tailwind.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+            
+            *{
+                font-family: 'Outfit', sans-serif;
+            }
+        </style>
     </head>
     <body class="bg-stone-900">
 
-       
+       <div class="h-screen flex justify-center items-center px-2">
+
+            <div class="w-96 bg-white rounded-xl overflow-hidden">
+
+                
+                
+                <div class="h-40" style="background-image:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');  background-size:cover; background-position:center;"></div>
+                <!-- <div class="h-40" style="background-image:url('https://images.ctfassets.net/pjshm78m9jt4/5BhwZ99nQwmW1Jf4y4tzCX/61fa0a7b8d718a7fe5255c29dcc681ab/YOUNG_PHOTOGRAPHER_PKG_STEREO.00_00_16_06.Still001.jpg'); background-size:cover; background-position:center;"></div> -->
+                <div class="p-4">
+                    <p class="font-bold text-gray-700 text-[25px] leading-10 mb-1">Love the nature</p>
+                    <div class="flex flex-row">
+                        <p class="text-[steelblue] text-[15px] mr-2">Sony A7RII</p>
+                        <p class="text-[#fc03fc] text-[17px] font-bold">$ 3,000</p>
+                    </div>
+                    <p class="text-[#888] font-[15px] mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="javascript:void(0);" class="w-full block bg-yellow-200 p-3 font-medium text-center capitalize rounded-[10px] transition-color duration-300 hover:bg-yellow-500" target="_blank">Order Now</a>
+                    <a href="javascript:void(0);" class="w-full block bg-gray-200 p-3 font-medium text-center capitalize rounded-[10px] mt-[10px] transition-color duration-300 hover:bg-gray-500" target="_blank">Add To Card</a>
+                </div>
+
+            </div>
+
+       </div>
 
     </body>
 </html>
