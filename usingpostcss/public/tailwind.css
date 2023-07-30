@@ -1010,6 +1010,10 @@ video {
   margin: 2.5rem;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .m-3 {
   margin: 0.75rem;
 }
@@ -1024,10 +1028,6 @@ video {
 
 .m-px {
   margin: 1px;
-}
-
-.m-2 {
-  margin: 0.5rem;
 }
 
 .mx-0 {
@@ -1286,10 +1286,6 @@ video {
   margin-top: 1px;
 }
 
-.me-auto {
-  margin-inline-end: auto;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1532,6 +1528,10 @@ video {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-36 {
@@ -4356,6 +4356,11 @@ video {
   background-color: rgb(49 46 129 / var(--tw-bg-opacity));
 }
 
+.bg-indigo-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 27 75 / var(--tw-bg-opacity));
+}
+
 .bg-lime-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(236 252 203 / var(--tw-bg-opacity));
@@ -5065,6 +5070,25 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#07081\] {
+  background-color: #07081;
+}
+
+.bg-\[\#07081f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 8 31 / var(--tw-bg-opacity));
+}
+
+.bg-purple-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 7 100 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#6a3093\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(106 48 147 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -5185,6 +5209,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-\[\#6a3093\] {
+  --tw-gradient-from: #6a3093 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(106 48 147 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-black {
   --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #000 var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -5253,6 +5283,10 @@ video {
 
 .to-yellow-500 {
   --tw-gradient-to: #eab308 var(--tw-gradient-to-position);
+}
+
+.to-\[\#a044ff\] {
+  --tw-gradient-to: #a044ff var(--tw-gradient-to-position);
 }
 
 .box-decoration-slice {

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="">
+    <head>
+        <title>File Viewer</title>
+        <link href="./tailwind.css" rel="stylesheet" type="text/css" />
+        <link
+            href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+        />
+    </head>
+    <body class="">
+        <div class="h-screen flex justify-center items-center">
+            <div class="w-[700px]">
+                <form action="" method="" enctype="multipart/form-data">
+                
+
+                    <div
+                        class="border-2 border-gray-300 border-dashed rounded-xl p-6"
+                    >
+                        <input
+                            type="file"
+                            name="file"
+                            id="file"
+                            class="w-full h-full absolute opacity-0 inset-0 z-50"
+                            onchange="showPhoto(event)"
+                        />
+
+                        <div class="text-center">
+                            <h3 class="text-gray-90 font-medium text-sm mt-2">
+                                <img
+                                    src="https://png.pngtree.com/png-vector/20221016/ourmid/pngtree-upload-file-vector-single-icon-clipart-transparent-background-png-image_6318311.png"
+                                    id="preview"
+                                    class="w-32 h-32 object-cover object-center mx-auto"
+                                    alt=""
+                                />
+                                <label for="file" class="">
+                                    <span>Click here to upload your</span>
+                                    <span class="text-indigo-600">File</span>
+                                </label>
+                            </h3>
+                            <span class="text-gray-300 text-sm mt-1"
+                                >JPG , PNG , GIT , ICO</span
+                            >
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            function showPhoto(event){
+                console.log(event);
+                const getinput = event.target;
+                const getPreview = document.getElementById("preview");
+               getPreview.src = URL.createObjectURL(getinput.files[0]);
+            };
+        </script>
+    </body>
+</html>
+
+<!-- 30UP -->
